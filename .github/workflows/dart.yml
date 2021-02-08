@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  integration_test_matrix:
+  test2:
     strategy:
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
